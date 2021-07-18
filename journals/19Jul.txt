@@ -16,7 +16,7 @@ thinkin that at the end it would be some sort of data service or database....
 
 new data can be uploaded and then the gui is rerendered with the new data.
 
-CREATE Story boards
+### CREATE Story boards
 
 1 page description of your application
 and storyboards.
@@ -29,11 +29,9 @@ an essay talking about the difference between python and JS
 Python project.
 
 
-Python Project:
+## Python Project:
 
-will be using 3 data explorer screens, and displaying data using a gui
-and will also have 
-
+will be using 3 data explorer screens, and displaying data using data visualization techniques, each DES
 
 
 
