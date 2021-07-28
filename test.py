@@ -1,7 +1,10 @@
-import pandas as pd
-import numpy as np
+print("Enter your name")
+name = input()
+print("Enter your year of birth")
+year= input()
+currentYear = 2021
+currentAge = currentYear - int(year)
+print("Hi " + name)
+print("Your born in ", year)
+print("So that means you are", currentAge)
 
-data = pd.read_csv('NZX.NZ.csv');
-
-print(data[0:1])
-print(data[0:2][1:2])
