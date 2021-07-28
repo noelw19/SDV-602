@@ -16,4 +16,18 @@ The data source i have in this directory, has a few headers that are used to obt
 | Adj Close | The adjusted value after the close ?|
 | Volume | Current volume of shares being traded | 
 
+I will use the date to compare each instance, and then i could use any of the opther headers as the x axis and i will be able to view a timeline of values according to the header name, excluding adj close and volume as i may use them for other things.
 
+| Graph | Description | 
+| ----- | ----------- |
+|Bar | Will use this chart to map the open, high, low and close values, either all in one with different colors according to header names. |
+| Line | Possibly be used to map the same above as well as looking at volume trajectories |
+
+
+## Calculations 
+
+I will need to calculate the highest of the open, high, low, close, adj close and volume, because there was alot of data but for testing sake i put a limit on the data to 15 by using the `[start:end]` i am able to split according to a start and end index position, append the above to the end of the variable name you would like to work with, so add a function that gets the highest within current range.
+
+Volume: To find out how many people have traded this stock look at the volume and divide by 2 because theres a seller and a buyer per transaction. high volume means high liquidity, meaning you can quickly sell your stock because there are alot of people currently trading, whereas low volume there are less buyers and sellers in the market for this stock.
+
+ 	
