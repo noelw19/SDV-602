@@ -30,4 +30,6 @@ I will need to calculate the highest of the open, high, low, close, adj close an
 
 Volume: To find out how many people have traded this stock look at the volume and divide by 2 because theres a seller and a buyer per transaction. high volume means high liquidity, meaning you can quickly sell your stock because there are alot of people currently trading, whereas low volume there are less buyers and sellers in the market for this stock.
 
- 	
+Value changes is calculated by subtracting the open price by the close price.
+`change = 1.43 - 1.62`
+`print(change)`
