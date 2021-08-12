@@ -10,10 +10,7 @@ You are able to use the key property within the component methods to allow you t
 `import PySimpleGUI as sg
 
 sg.theme('Dark Blue 3')  # please make your windows colorful
-layout = [[sg.Text('Choose one of the options below and live your destiny:', justification='center')],
-          [sg.Text('You wake up in a white room with gold trim, \n'
-                   'out the window the morning sun creeps across the horizon.. \nWhere the heck am I?',
-                   key='storyLine', size=(50, 7))],
+layout = [[sg.Text('Choose one of the options below and live your destiny:', justification='center')],[sg.Text('You wake up in a white room with gold trim, \n out the window the morning sun creeps across the horizon.. \nWhere the heck am I?', key='storyLine', size=(50, 7))],
           [sg.Text('', key='error', size=(20,1))],
           [sg.Text('What do you want to do?', key='Q0')],
           [sg.Text('1. Check the door?', key='Q1', size=(60, 2))],
